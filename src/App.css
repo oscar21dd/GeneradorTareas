@@ -1,0 +1,59 @@
+.boton-editar{
+    background-color: greenyellow;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+  
+.boton-eliminar{
+    background-color: red;
+    color :white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+  
+.tareaContenedor{
+    width: 600px;
+    margin: 100px ;
+  
+    display: flex;
+    flex-direction: column;
+}
+  
+.tareaCreateForm{
+    display: flex;
+    gap: 5px;
+}
+  
+.botonCrear{
+    background-color:aqua;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+  
+.tareasContenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  
+}
+  
+.tarea{
+    padding: 10px;
+    background-color: wheat;
+}
+  
+.tareaTitle{
+    flex: 1px;
+    font-size: 20px;
+}
+  
+.tareaInfo,.tareaUpdateForm{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+  
+  
+
+
+
